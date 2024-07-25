@@ -50,12 +50,33 @@
         <div class="informacionPosterPrincipal">
             <h1 class="tituloImagenPosterPrincipal">Vivo</h1>
             <div class="botonesPosterPrincipal">
-                <button class="botonReproducirPosterPrincipal" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Reproducir</button>
-                <button class="botonInfoPosterPrincipal">Mas informacion</button>
+                <button class="botonReproducirPosterPrincipal" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Reproducir</button>
+                <button class="botonInfoPosterPrincipal" data-bs-toggle="modal" data-bs-target="#exampleModal">Mas
+                    informacion</button>
             </div>
         </div>
     </div>
+
+    <!-- Modal video poster principal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Vivo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://www.youtube.com/embed/BOe8L69JpVI" frameborder="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------------->
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -66,7 +87,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <img src="https://www.themoviedb.org/t/p/original/2BftdeCkD7uf68KUxaKRBxtsmZZ.jpg" alt="">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -75,7 +96,6 @@
             </div>
         </div>
     </div>
-    <!--------------------------------------------------------------------------->
 
     <div class="containerCarrusel">
         <h3 class="tituloCarrusel">Populares de Netnet</h3>
@@ -114,7 +134,6 @@
         crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
 
     <script type="module" src="./scripts/index.js"></script>
 </body>

@@ -357,7 +357,7 @@
       "Type": "Adulto",
       "Title": "Godzilla vs. Kong ",
       "Year": "2021",
-      "Value": 8.0,
+      "Value": 8,
       "Description": "In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
       "Carrusel": "https://www.themoviedb.org/t/p/original/mGJuQwMq1bEboaVTqQAK4p4zQvC.jpg",
       "Trailer": "https://www.youtube.com/embed/odM92ap8_c0",
@@ -511,7 +511,7 @@
       "Type": "Adulto",
       "Title": "Crucero por la jungla  ",
       "Year": "2021",
-      "Value": 8.0,
+      "Value": 8,
       "Description": "La Dra. Lily Houghton solicita la ayuda del bromista capitán Frank Wolff para llevarla por el Amazonas en su ruinoso barco. Juntos, buscan un árbol antiguo que tenga el poder de curar, un descubrimiento que cambiará el futuro de la medicina.",
       "Carrusel": "https://www.themoviedb.org/t/p/original/bwBmo4I3fqMsVvVtamyVJHXGnLF.jpg",
       "Trailer": "https://www.youtube.com/embed/ydnzilTiBcY",
@@ -527,6 +527,28 @@
       "Carrusel": "https://www.themoviedb.org/t/p/original/o6eVlCjvxLn3Fzyr9gsYKAQNNxl.jpg",
       "Trailer": "https://www.youtube.com/embed/a2cowVH03Xo",
       "Poster": "https://www.themoviedb.org/t/p/original/gxK2lB1w8an5ViPXzisDsRsyHr0.jpg"
+    },
+    {
+      "id": "f5ee3554-77cd-4e31-af7e-ace5e24deae0",
+      "Type": "value1",
+      "Title": "La era de hielo",
+      "Year": "2002",
+      "Value": "9",
+      "Description": " Acompaña al parlanchín y divertido perezoso Sid, al malhumorado y lanudo mamut Manfred y a Diego, el siniestro tigre dientes de sable, en el más divertido viaje de todos los tiempos",
+      "Carrusel": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.colombia.com%2Fcine%2Fnoticias%2Fla-era-de-hielo-20-anos-estreno-nueva-pelicula-las-aventuras-de-buck-disney-plus-335917&psig=AOvVaw0Vyzymr06cEmYnCqQUS8Zi&ust=1722018892082000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiOirXqwocDFQAAAAAdAAAAABAJ",
+      "Trailer": "https://www.youtube.com/watch?v=r7kXB2sbtmw",
+      "Poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdoblaje.fandom.com%2Fes%2Fwiki%2FLa_era_de_hielo&psig=AOvVaw0Vyzymr06cEmYnCqQUS8Zi&ust=1722018892082000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiOirXqwocDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "cca2635f-b1c0-4d46-aecc-47066c50d735",
+      "Type": "value3",
+      "Title": "Deadpool y Lobezno",
+      "Year": "2024",
+      "Value": "8",
+      "Description": "Un apático Wade Wilson se esfuerza en su vida civil, dejando atrás sus días como el mercenario moralmente flexible, Deadpool. Pero cuando su mundo natal enfrenta una amenaza existencial, Wade debe volver a ponerse el traje de un Wolverine aún más reacio.",
+      "Carrusel": "https://image.tmdb.org/t/p/original/dvBCdCohwWbsP5qAaglOXagDMtk.jpg",
+      "Trailer": "https://www.youtube.com/watch?v=uDzfa0w86Vw",
+      "Poster": "https://image.tmdb.org/t/p/original/A90rKuB1UP3nH7ZgxwYf3IUt2IW.jpg"
     }
   ]
 }
