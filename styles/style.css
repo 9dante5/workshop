@@ -1,0 +1,98 @@
+body {
+    background-color: #000000;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    background: linear-gradient(135deg, #FF0021, #AA011A);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.nav-link{
+    color: #FEFEFE;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.buscar img{
+    width: 20px;
+    height: 20px;
+}
+
+.posterPrincipal {
+    height: 600px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: center;
+
+}
+
+.posterPrincipal img {
+    display: block;
+    width: 90%;
+    height: 100%;
+
+}
+
+.informacionPosterPrincipal{
+    position: absolute;
+    margin-top: 400px;
+}
+
+.tituloImagenPosterPrincipal{
+    color: #FEFEFE;
+}
+
+
+
+
+.containerCarrusel{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: center;
+}
+
+
+.tituloCarrusel{
+    color: #FFFFFF;
+    width: 90%;
+}
+
+.containerMasPopulares, .containerInfatiles, .containerAdultos{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.containerMasPopulares img, .containerInfatiles img, .containerAdultos img{
+    flex: 1 0 auto;
+    margin: 0 20px 0 0;
+    width: 180px;
+    height: 101,24px;
+    cursor: pointer;
+}
+
